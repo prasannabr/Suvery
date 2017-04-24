@@ -1,0 +1,50 @@
+{
+  "records": [
+    {
+      "ID": "1",
+      "Question": "Which fruit among the below you like the most",
+      "Answers": [ "Mango", "Apple", "watermeloon", "Orange" ]
+    },
+    {
+      "ID": "2",
+      "Question": "Which dish among the below you like the most",
+      "Answers": [ "Chicken Biriyani", "Mutton Biriyani", "Veg.Biriyani", "Dal Chawal" ]
+    },
+    {
+      "ID": "3",
+      "Question": "Which is you favorite holiday destination among the below",
+      "Answers": [ "Americas", "Europe", "Mauritius", "Maldives" ]
+    },
+    {
+      "ID": "4",
+      "Question": "Which is you favorite holiday destination among the below",
+      "Answers": [ "Americas", "Europe", "Mauritius", "Maldives" ]
+    },
+    {
+      "ID": "5",
+      "Question": "Which is you favorite holiday destination among the below",
+      "Answers": [ "Americas", "Europe", "Mauritius", "Maldives" ]
+    },
+    {
+      "ID": "6",
+      "Question": "Which is you favorite holiday destination among the below,Which is you favorite holiday destination among the below,Which is you favorite holiday destination among the below",
+      "Answers": [ "Americas", "Europe", "Mauritius", "Maldives" ]
+    },
+    {
+      "ID": "7",
+      "Question": "Which is you favorite holiday destination among the below",
+      "Answers": [ "Americas", "Europe", "Mauritius", "Maldives" ]
+    },
+    {
+      "ID": "8",
+      "Question": "Which is you favorite holiday destination among the below",
+      "Answers": [ "Americas", "Europe", "Mauritius", "Maldives" ]
+    },
+    {
+      "ID": "9",
+      "Question": "Which is you favorite holiday destination among the below",
+      "Answers": [ "Americas", "Europe", "Mauritius", "Maldives" ]
+    }
+
+  ]
+}
