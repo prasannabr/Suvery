@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="SurveyApp">
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.min.js"></script>
+    <script src="QuestionsCtlr.js"></script>
+    <style>
+        div-Questions {
+            width: 300px;margin: 50px;display: block;margin-left: 300px;margin-right: 300px;
+        }
+
+        div-submit {
+            display: block;
+            margin-left: 300px;
+            margin-right: 300px;
+        }
+    </style>
+
+</head>
+<body ng-controller="QACtlr" style="background-color:floralwhite" ng-view>
+    <form action="/" id="QA">
+        <div>
+            <h1 style="text-align:center;display:block;">Welcome to Food and Holiday destinations survey</h1>
+            <p style="text-align:center;text-decoration-color:brown">
+                Participate in survey by choosing your favorite food and holiday destination and get a chance to win a holiday trip to europe
+            </p>
+            <!--style="display:block;margin-left:350px;" class="div-Questions"-->
+            <div style="display: block;margin-left: 300px;margin-right: 300px;">
+                <div ng-repeat="QA in Questions track by $index">
+                    <span>{{QA.ID}}.{{QA.Question}}</span>
+                    <ul>
+                        <li ng-repeat="answer in QA.Answers ">
+                            <input type="radio" name="answer[{{QA.ID}}]" value="answer" />
+                            <span>{{answer}}</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <br />
+            <!--style="display:block;margin-left:350px;"-->
+            <div style="display: block;margin-left: 300px;margin-right: 300px;">
+                <button type="button" ng-click="submit()" value="Submit">Submit</button>
+            </div>
+        </div>
+    </form>
+   
+</body>
+</html>
